@@ -1,4 +1,4 @@
-# NCT-CSB12
+# Getting started with NCT-CSB12 Github page
 We're pleased to offer a 14-week, corresponding to 14-lesson curriculum all about Computer Science with Python.
 
 In this course, you will learn:
@@ -6,7 +6,6 @@ In this course, you will learn:
 - The basics of Python programming and gain the logical thinking in programming.
 - Practice self-reading and searching skills in the field of programming.
 
-## Getting started with NCT-CSB12 Github page
 All materials of the course will be provided in this repository. 
 
 ## Class rules
@@ -24,11 +23,19 @@ All materials of the course will be provided in this repository.
 
 2. Install a Python interpreter
 - Windows: Install Python from [python.org](python.org)
-- MacOS: Open Terminal and type: brew install python3
-
+- MacOS: Open Terminal and type: 
+    ```terminal
+    brew install python3
+    ```
 3. Verify the Python installation
-- macOS: open Terminal and type the following command: python3 --version
-- Windows: open CMD and run the following command: py -3 --version
+- macOS: open Terminal and type the following command: 
+    ```terminal
+    python3 --version
+    ```
+- Windows: open CMD and run the following command: 
+    ```cmd
+    py -3 --version
+    ```
 
 ## Useful resources
 - Website for sharpening your coding skills:

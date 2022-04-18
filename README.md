@@ -17,12 +17,43 @@ All materials of the course will be provided in this repository.
 
 ## How to upload your works
 <details>
-  <summary>Click to expand!</summary>
-d
+  <summary>Step 1: I'll send you the invitation to be the collaborator, remember to accept it!</summary>
+
+![alt text](https://github.com/nqv2291/NCT-CSB12/blob/main/Materials/Submit%20labworks/1.png?raw=true)
 </details>
 
-Step 1:
-![alt text]()
+<details>
+<summary>Step 2: Choose a branch to upload your files (IMPORTANT!)</summary>
+
+Click to the **main** button, then choose another branch that is different from **main** (in this case, I choose *lab01* to upload my labwork for lesson 1).
+
+![alt text](https://github.com/nqv2291/NCT-CSB12/blob/main/Materials/Submit%20labworks/2.png?raw=true)
+</details>
+
+<details>
+  <summary>Step 3: Navigate to the directory you want to upload your files (eg: lab01)</summary>
+
+![alt text](https://github.com/nqv2291/NCT-CSB12/blob/main/Materials/Submit%20labworks/3.png?raw=true)
+</details>
+
+<details>
+  <summary>Step 4: Drag and drop your folder to github page</summary>
+
+- First put all your works into 1 folder, then name it after your fullname without special characters *(eg: Ngo_Quang_Viet)*
+- Drag and drop your folder to github as shown in figure below.
+
+![alt text](https://github.com/nqv2291/NCT-CSB12/blob/main/Materials/Submit%20labworks/4.png?raw=true)
+</details>
+
+<details>
+  <summary>Step 5: Commit your changes</summary>
+
+- If everything goes as expected, you will see all your files shown as in figure below.
+- Enter message follow the syntax: full_name - lab_name.
+- Click **Commit changes** and now you're done. 
+
+![alt text](https://github.com/nqv2291/NCT-CSB12/blob/main/Materials/Submit%20labworks/5.png?raw=true)
+</details>
 
 ## Setup coding environment: Python and IDE (Visual Studio Code)
 <details>

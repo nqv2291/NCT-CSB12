@@ -47,7 +47,7 @@ while Loop == 0:
     Answer_input = input("1 for True, 0 for False:")
     if Answer_input == str(0) and Randomize_sign == 0:
         if Answer == Randomize_interger1 + Randomize_interger2:
-            print ("Lost")
+            print ("Wrong")
             Loop = Loop + 1
         else:
             score = score + 1
@@ -57,11 +57,11 @@ while Loop == 0:
             score = score + 1
             print (f"ur score is {score}")
         else:
-            print ("Lost")
+            print ("Wrong")
             Loop = Loop + 1
     elif Answer_input == str(0) and Randomize_sign == 1:
         if Answer == Randomize_interger1 - Randomize_interger2:
-            print ("Lost")
+            print ("Wrong")
             Loop = Loop + 1
         else:
             score = score + 1
@@ -71,11 +71,11 @@ while Loop == 0:
             score = score + 1
             print (f"ur score is {score}")
         else:
-            print ("Lost")
+            print ("Wrong")
             Loop = Loop + 1
     elif Answer_input == str(0) and Randomize_sign == 2:
         if Answer == Randomize_interger1 * Randomize_interger2:
-            print ("Lost")
+            print ("Wrong")
             Loop = Loop + 1
         else:
             score = score + 1
@@ -85,6 +85,6 @@ while Loop == 0:
             score = score + 1
             print (f"ur score is {score}")
         else:
-            print ("Lost")
+            print ("Wrong")
             Loop = Loop + 1
 print (f"Your total score {score}")

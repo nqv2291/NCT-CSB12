@@ -22,7 +22,7 @@ elif Answer_input == 0 and Answer != Randomize_interger1 + Randomize_interger2:
   
   
   
- #Moi xong:)) 9:59 14/05/2022, Mới fix lỗi bug 8:00 15/05/2022
+ #Moi xong:)) 9:59 14/05/2022, Mới fix lỗi bug 8:00 15/05/2022, fix bug part 2 9:32 15/05/2022
 import random
 print ("give correct answer")
 score = 0

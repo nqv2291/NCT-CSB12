@@ -1,4 +1,4 @@
-#chua xong cho em them thoi gian::((
+
 import random
 print ("Give correct answer to get scores.")
 Randomize_sign = 0

@@ -1,14 +1,9 @@
-a = [10, 12, 14, 16]
-b = a[:]
-# list -> mutable
+names = ["Viet Anh", "Duc", "Linh", "Minh"]
 
-t = tuple(10, 12, 14, 16)
-t = (10, 12, 14, 16, 17)
-# tuple -> immutable
+print(names)
 
-print(f"a = {a}, b = {b}")
+# add Viet to the list
+t = (1, 2, 3)
 
-t.clear()
 
-print(f"a = {a}, b = {b}")
-
+print(names)

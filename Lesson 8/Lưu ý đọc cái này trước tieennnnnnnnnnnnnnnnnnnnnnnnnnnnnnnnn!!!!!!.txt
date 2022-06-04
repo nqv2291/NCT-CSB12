@@ -1,9 +1,0 @@
-1. Thư mục lab là đáp án của bài lab tuần này (tức là phần function)
-- Anh chỉ làm được ex1, ex2 thui, từ ex3 các bạn tự xem lời giải và cố gắng đọc hiểu nếu ko làm được.
-- Gõ mệt quá hicc :((. Anh cố hết sức rồi, hy vọng các bạn hiểu bài, có gì ko hiểu hỏi anh nhé!
-
-2.Thư mục Practice exercises from Python Crash Course
-- Lúc làm cái này còn sung sức nên a có ghi chú thích rất chi tiết từng dòng. A đoán là các bạn có thể đọc phát hiểu ngay :))
-- Các bạn ưu tiên đọc cái này trước nhé!!
-
-Chúc các bạn học Python vui vẻ. Trước khi nghỉ tết ta sẽ có 1 bài hackathon về phần Hàm nên ôn kỹ nhaaaaa

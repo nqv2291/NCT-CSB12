@@ -1,12 +1,12 @@
 def pensize(size):
-    # Change pen size
-    pass
+    print("changing pensize...")
+    print("Current pensize:", size)
 
 def color(color):
-    pass
+    print("Changed color to", color)
 
 def forward(distance):
     print(f"Go forward {distance} meters")
 
 contributor = "Viet"
-date = "9/1/2022"
+date = "4/6/2022"

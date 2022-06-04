@@ -1,4 +1,3 @@
-def make_shirt(size, message):
-    print(f"This T-shirt has size {size} and a message: {message}")
+import my_turtle as t
 
-make_shirt(size="M", message="Love hust")
+t.forward(2)

@@ -1,6 +1,4 @@
-def ten_Cua_ham(banh, caramen, bia=10):
-    banh = 3
-    bia = 4
-    print("thong tin cua banh...")
+def make_shirt(size, message):
+    print(f"This T-shirt has size {size} and a message: {message}")
 
-ten_Cua_ham(banh=3, caramen=5)
+make_shirt(size="M", message="Love hust")

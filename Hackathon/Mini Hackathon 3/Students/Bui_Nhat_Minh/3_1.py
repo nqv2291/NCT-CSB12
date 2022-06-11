@@ -56,27 +56,44 @@ print_map(room_width, room_height, player_pos_x, player_pos_y,
 
 # Gameplay
 
+
+def check_move(move):
+    global player_pos_x, player_pos_y, key_pos_x, key_pos_y, door_pos_x, door_pos_y, room_height, room_width
+    if move == 'w' and player_pos_y > 0:
+        player_pos_y -= 1
+    elif move == 's' and player_pos_y < room_height - 1:
+        player_pos_y += 1
+    elif move == 'a' and player_pos_x > 0:
+        player_pos_x -= 1
+    elif move == 'd' and player_pos_x < room_width - 1:
+        player_pos_x += 1
+
+
+def check_win_condition():
+    global key_collected
+    global door_reach
+
+    os.system('cls')
+    door_reach = True
+    if (key_collected):
+        print('You win!')
+        print(f'You completed the game in {turn} turns.')
+    else:
+        print('You lose!')
+        print('Please remember to collect the key before exiting the door.')
+
+
 while True:
     move = msvcrt.getch().decode('utf-8')
     if move == 'w' or move == 's' or move == 'a' or move == 'd':
-        if move == 'w' and player_pos_y > 0:
-            player_pos_y -= 1
-        elif move == 's' and player_pos_y < room_height - 1:
-            player_pos_y += 1
-        elif move == 'a' and player_pos_x > 0:
-            player_pos_x -= 1
-        elif move == 'd' and player_pos_x < room_width - 1:
-            player_pos_x += 1
+        check_move(move)
         turn += 1
         if key_pos_x == player_pos_x and key_pos_y == player_pos_y:
             key_collected = True
             key_pos_x = -1
             key_pos_y = -1
-        if door_pos_x == player_pos_x and door_pos_y == player_pos_y and key_collected:
-            os.system('cls')
-            door_reach = True
-            print('You win!')
-            print(f'You completed the game in {turn} turns.')
+        if door_pos_x == player_pos_x and door_pos_y == player_pos_y:
+            check_win_condition()
             break
 
         print_map(room_width, room_height, player_pos_x, player_pos_y,

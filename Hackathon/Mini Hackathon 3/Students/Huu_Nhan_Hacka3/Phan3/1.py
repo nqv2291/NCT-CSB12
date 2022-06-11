@@ -1,4 +1,8 @@
 #Nát;-;
+#(Còn nhiều lỗi nếu thiếu K hoặc D hoặc P thì reset game)
+#(W và S có vấn đề)
+#(Muốn di chuyển phải cần in hoa chữ đó)
+
 import os
 import random
 def map():

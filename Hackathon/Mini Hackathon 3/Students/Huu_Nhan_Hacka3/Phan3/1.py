@@ -1,3 +1,4 @@
+#Nát;-;
 import os
 import random
 def map():
@@ -13,9 +14,36 @@ for i in list:
     placement = random.randint(0,49)
     del map_[placement]
     map_.insert(placement, i )
+map()
 def control():
-    a = input("ejd")
+    a = input("Move")
+    if a == "W":
+        d = map_.index("P")
+        del map_[d]
+        map_.insert(d, "-" )
+        del map_[d - 10]
+        map_.insert(d - 10, "P" )
+    if a == "D":
+        d = map_.index("P")
+        del map_[d]
+        map_.insert(d, "-" )
+        del map_[d + 1]
+        map_.insert(d + 1, "P" )
     if a == "A":
-
+        d = map_.index("P")
+        del map_[d]
+        map_.insert(d, "-" )
+        del map_[d - 1]
+        map_.insert(d - 1, "P" )
+    if a == "S":
+        d = map_.index("P")
+        del map_[d]
+        map_.insert(d, "-" )
+        del map_[d + 10]
+        map_.insert(d + 10, "P" )
+    print (map())
+    f = map_.index("K")
+while True:
+    control()
 
 

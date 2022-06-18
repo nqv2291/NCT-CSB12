@@ -1,6 +1,6 @@
 import os
 import math
-import msvcrt
+import getch
 import random
 
 
@@ -43,14 +43,17 @@ player_pos_x = random.randint(0, room_width - 1)
 player_pos_y = random.randint(0, room_height - 1)
 key_pos_x = random.randint(0, room_width - 1)
 key_pos_y = random.randint(0, room_height - 1)
+
 while key_pos_x == player_pos_x and key_pos_y == player_pos_y:
     key_pos_x = random.randint(0, room_width - 1)
     key_pos_y = random.randint(0, room_height - 1)
+
 door_pos_x = random.randint(0, room_width - 1)
 door_pos_y = random.randint(0, room_height - 1)
 while key_pos_x == door_pos_x and key_pos_y == door_pos_y:
     door_pos_x = random.randint(0, room_width - 1)
     door_pos_y = random.randint(0, room_height - 1)
+    
 print_map(room_width, room_height, player_pos_x, player_pos_y,
           key_pos_x, key_pos_y, door_pos_x, door_pos_y)
 
@@ -84,7 +87,7 @@ def check_win_condition():
 
 
 while True:
-    move = msvcrt.getch().decode('utf-8')
+    move = getch.getch().decode('utf-8')
     if move == 'w' or move == 's' or move == 'a' or move == 'd':
         check_move(move)
         turn += 1

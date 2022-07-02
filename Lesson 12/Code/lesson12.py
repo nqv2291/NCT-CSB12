@@ -1,5 +1,6 @@
 import os
 
-file_exists = os.path.exists("linhtinh") #True
-
-os.remove("linhtinh")
+try:
+    os.rmdir('testFolder')
+except:
+    print("oops co loi roi")
